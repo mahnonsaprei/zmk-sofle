@@ -53,6 +53,11 @@
             key-positions = <34 35>;
             layers = <0>;
         };
+        AltTabDF {
+            bindings = <&kp LA(TAB)>;
+            key-positions = <16 17>;
+            layers = <0>;
+        };
     };
 
     macros {
