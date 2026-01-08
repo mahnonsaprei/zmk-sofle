@@ -331,6 +331,3 @@ combos:
 - p: [34, 35]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [LAYER0]
-- p: [16, 17]
-  k: Alt+$$mdi:keyboard-tab$$
-  l: [LAYER0]
