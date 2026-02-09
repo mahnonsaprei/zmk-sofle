@@ -36,7 +36,7 @@
                 <&macro_tap &kp R>,
                 <&macro_tap &kp Y>,
                 <&macro_tap &kp SPACE>,
-                <&macro_tap &kp PIPE>,
+                <&macro_tap &kp LS(BSLH)>,
                 <&macro_tap &kp SPACE>,
                 <&macro_tap &kp G>,
                 <&macro_tap &kp R>,
