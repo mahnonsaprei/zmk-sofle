@@ -1,34 +1,28 @@
 /*
- * Custom behaviors
+ * Custom behaviors / macros
  * - Reverse search for Linux terminal (Ctrl + R)
+ * - history | grep -i
  */
 
  / {
     macros {
         // =========================
-        // Ctrl + R
-        // Attiva la reverse search nella history del terminale
+        // Ctrl + R  (reverse search)
         // =========================
         REV_SEARCH: REV_SEARCH {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             label = "REV_SEARCH";
-
-            // Sequenza:
-            // 1) premi Ctrl
-            // 2) premi e rilascia R
-            // 3) rilascia Ctrl
             bindings =
                 <&macro_press   &kp LCTRL>,
                 <&macro_tap     &kp R>,
                 <&macro_release &kp LCTRL>;
         };
-    };
- };
 
-//Macro per comando history | grep -i
-/ {
-    macros {
+        // =========================
+        // history | grep -i␠
+        // (tutto minuscolo, spazio finale)
+        // =========================
         HISTORY_GREP_I: HISTORY_GREP_I {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
