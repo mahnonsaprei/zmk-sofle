@@ -123,7 +123,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&HISTORY_GREP_I'
   - $$mdi:mouse-left-click-outline$$
   - '&REV_SEARCH'
   - {t: '$$mdi:transfer$$', type: trans}
