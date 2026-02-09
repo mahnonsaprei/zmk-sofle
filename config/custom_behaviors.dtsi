@@ -25,3 +25,33 @@
         };
     };
  };
+
+//Macro per comando history | grep -i
+/ {
+    macros {
+        HISTORY_GREP_I: HISTORY_GREP_I {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            label = "HISTORY_GREP_I";
+            bindings =
+                <&macro_tap &kp H>,
+                <&macro_tap &kp I>,
+                <&macro_tap &kp S>,
+                <&macro_tap &kp T>,
+                <&macro_tap &kp O>,
+                <&macro_tap &kp R>,
+                <&macro_tap &kp Y>,
+                <&macro_tap &kp SPACE>,
+                <&macro_tap &kp PIPE>,
+                <&macro_tap &kp SPACE>,
+                <&macro_tap &kp G>,
+                <&macro_tap &kp R>,
+                <&macro_tap &kp E>,
+                <&macro_tap &kp P>,
+                <&macro_tap &kp SPACE>,
+                <&macro_tap &kp MINUS>,
+                <&macro_tap &kp I>,
+                <&macro_tap &kp SPACE>;
+        };
+    };
+};
