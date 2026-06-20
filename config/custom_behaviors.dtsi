@@ -84,7 +84,7 @@
             #binding-cells = <0>;
             label = "CTRLB";
             bindings =
-                <&macro_tap &kp LC(B)>
+                <&macro_tap &kp LC(B)>;
         };
 
     };
