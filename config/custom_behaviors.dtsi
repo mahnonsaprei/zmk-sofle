@@ -78,5 +78,14 @@
                 <&macro_tap &kp KP_N9>,
                 <&macro_release &kp LEFT_ALT>;
         };
+
+       CTRLB: CTRLB {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            label = "CTRLB";
+            bindings =
+                <&macro_tap &kp LC(B)>
+        };
+
     };
 };
